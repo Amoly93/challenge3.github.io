@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tailwingcss</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="max-w-screen-lg mx-auto">
+      <div class=" my-8 text-center">
+        <h1 class="text-4xl font-extrabold mb-2">Getting started with Tailwind CSS</h1>
+        <p class="text-xl font-extralight">Learn Tailwind the way that best matches your learning style.</p>
+      </div>
+      <div class="flex flex-col md:flex-row ">
+        <!-- box 1 -->
+        <div id="box1" class=" w-80 bg-purple-500 rounded-3xl shadow-xl static overflow-hidden mx-auto my-6 " style="height: 350px">
+          <div class="px-5 py-7">
+            <h3 class="text-xl font-semibold text-white ">Read the docs</h3>
+            <p class="text-base font-normal text-white text-opacity-75 py-2">Learn how to get Tailwind set uo in your
+              project</p>
+            <button type="button"
+              class=" h-10 w-36 text-lg font-semibold rounded-2xl text-white bg-purple-600 transition duration-500  hover:bg-purple-700 mt-2 absolute">Start learning
+            </button>
+          </div>
+          <div class="rounded-b-3xl relative mt-11 h-40">
+            <img src="images/docs.svg" alt="docs" class="ml-6 ">
+            <div class="absolute h-full w-full top-0 left-0 bg-gradient-to-t from-purple-500 to-purple-transparent"></div>
+          </div>
+        </div>
+        <!-- box 2 -->
+        
+        <div id="box2" class="w-80 bg-pink-500 rounded-3xl shadow-xl static overflow-hidden mx-auto my-6" style="height: 350px">
+          <div class="px-5 py-7 " >
+            <h3 class="text-xl font-semibold text-white">Try it in the browser</h3>
+            <p class="text-base font-normal text-white text-opacity-75 py-2">Build something with Tailwind in our
+              online playground</p>
+            <button type="button" class="bg-pink-600 h-10 w-36 text-lg font-medium rounded-2xl text-white transition duration-500  hover:bg-pink-700 mt-2 absolute">Start
+              building </button>
+          </div>
+          <div class="rounded-b-3xl relative mt-11 h-40">
+            <img src="images/building.svg" alt="building" class="ml-6">
+            <div class="absolute h-full w-full top-0 left-0 bg-gradient-to-t from-pink-500 to-pink-transparent"></div>
+          </div>
+        </div>
+        
+        <!-- box 3 -->
+        <div id="box3" class="w-80 bg-yellow-500 rounded-3xl shadow-xl relative overflow-hidden mx-auto my-6"  style="height: 350px">
+          <div class="px-5 py-7 ">
+          <h3 class="text-xl font-semibold text-white ">Try it in the browser</h3>
+          <p class="text-base font-normal text-white text-opacity-75 py-2">Learn more about Tailwind directly from the
+            team on our channel</p>
+          <button type="button" class="h-10 w-36 bg-yellow-600 text-lg font-medium text-white rounded-2xl transition duration-500  hover:bg-yellow-700 my-3 absolute">Start
+            watching </button>
+        </div>
+        <div class="rounded-b-3xl relative mt-11 h-40">
+          <img src="images/screencasts.svg" alt="screencasts." class="ml-6 ">
+          <div class="absolute h-full w-full top-0 left-0 bg-gradient-to-t from-yellow-500 to-yellow-transparent"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
